@@ -44,7 +44,7 @@ function setupSquares(){
                 h1.style.backgroundColor = clickedColor;
             } else{
                 this.style.backgroundColor = "#232323";
-                displayMessage.textContent = "Try Again";
+                displayMessage.textContent = "Nope!";
             }
         });
     }
